@@ -2,7 +2,15 @@ import webbrowser
 
 #This file defines the movie data that will be stored.
 class Movie():
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+    """
+    Store all relavent movie data and
+    display the trailer   
+    """
+    def __init__(self,
+                 movie_title,
+                 movie_storyline,
+                 poster_image,
+                 trailer_youtube):
 
         # store data passed when object is created.
         self.title = movie_title
